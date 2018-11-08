@@ -5,7 +5,7 @@
 
 In order to be ready for real world applications of probability, it is important to understand what happens when probabilities are not independent. Very often, the probability of a certain event depends on other events happening! Let's see how this all works in this lab.
 
-## Learning objectives
+## Objectives
 
 You will be able to:
 
