@@ -5,7 +5,7 @@
 
 In order to be ready for real world applications of probability, it is important to understand what happens when probabilities are not independent. Very often, the probability of a certain event depends on other events happening! Let's see how this all works in this lab.
 
-## Learning objectives
+## Objectives
 
 You will be able to:
 
@@ -16,11 +16,6 @@ You will be able to:
 
 ## Exercise 1
 A coin is tossed and a single 6-sided die is rolled. Find the probability of landing on the head side of the coin and rolling a 3 on the die.
-
-
-```python
-# Your solution
-```
 
 
 ```python
@@ -42,11 +37,6 @@ P
 
 ## Exercise 2
 A school survey found that 9 out of 10 students like pizza. If three students are chosen at random **with replacement**, what is the probability that all three students like pizza?
-
-
-```python
-# Your Solution
-```
 
 
 ```python
@@ -75,11 +65,6 @@ What percent of those who like Chocolate also like Strawberry?
 
 
 ```python
-# Your solution 
-```
-
-
-```python
 # P(Strawberry|Chocolate) = P(Chocolate and Strawberry) / P(Chocolate)
 
 p_strberry_given_choc = 0.35 / 0.7
@@ -97,11 +82,6 @@ p_strberry_given_choc
 
 ## Exercise 4
 What is the probability of drawing 2 consecutive Aces from a Deck of cards. 
-
-
-```python
-# Your solution
-```
 
 
 ```python
@@ -133,11 +113,6 @@ In a manufacturing factory that produces a certain product, there are 100 units 
 
 What is the probability that none of them are defective?
 Hint: Use chain rule
-
-
-```python
-# Your solution
-```
 
 
 ```python
@@ -178,11 +153,6 @@ Let i,j be the numbers shown on the dice . Denote events as below:
 * What is P(A ∩ B) ?
 * What is P(A) ?
 * Use above to calculate P(B|A) .
-
-
-```python
-# Your solution
-```
 
 ### solution
 
@@ -234,11 +204,6 @@ With the knowledge we have about conditional probabilities, compute and interpre
 - $P(A\mid B)$
 - $P(A'\mid B)$
 
-
-
-```python
-# Your solution
-```
 
 ### Solution
 
