@@ -9,13 +9,12 @@ In order to be ready for real world applications of probability, it is important
 
 You will be able to:
 
-- Understand and Explain the conditional probability - P(A∩B) = P(A|B) x P(B)
+- Understand and explain the conditional probability - $P(A \cap B) = P(A \mid B) P(B)$
 - Use the multiplication rule to find the probability of the intersection of two events
 - Apply the techniques learned in the lesson to simple problems
 
-
 ## Exercise 1
-A coin is tossed and a single 6-sided die is rolled. Find the probability of landing on the head side of the coin and rolling a 3 on the die.
+A coin is tossed and a single 6-sided dice is rolled. Find the probability of landing on the head side of the coin and rolling a 3 on the dice.
 
 
 ```python
@@ -59,9 +58,9 @@ P_1_2_3
 
 
 ## Exercise 3
-70% of your friends like Chocolate flavored ice cream , and 35% like Chocolate AND like Strawberry flavors.
+70% of your friends like chocolate flavored ice cream , and 35% like chocolate AND like strawberry flavors.
 
-What percent of those who like Chocolate also like Strawberry?
+What percent of those who like chocolate also like strawberry?
 
 
 ```python
@@ -78,10 +77,10 @@ p_strberry_given_choc
 
 
 
-50% of your friends who like Chocolate also like Strawberry
+50% of your friends who like chocolate also like strawberry
 
 ## Exercise 4
-What is the probability of drawing 2 consecutive Aces from a Deck of cards. 
+What is the probability of drawing 2 consecutive aces from a deck of cards. 
 
 
 ```python
@@ -112,7 +111,7 @@ P_A_and_B
 In a manufacturing factory that produces a certain product, there are 100 units of the product, 5 of which are defective. We pick three units from the 100 units at random. 
 
 What is the probability that none of them are defective?
-Hint: Use chain rule
+Hint: Use the chain rule here!
 
 
 ```python
@@ -141,36 +140,34 @@ P_A1_A2_A3
 
 ## Exercise 6
 
+## Exercise 6
+
 Let's consider the example where 2 dice are thrown. Given that **at least one** of the dice has come up on a number higher than 4, what is the probability that the sum is 8?
 
-Let i,j be the numbers shown on the dice . Denote events as below:
+Let $i,j$ be the numbers shown on the dice. The events $A$ and $B$ are described below:
 
-* **Event A is when Either i Or j is 5 or 6** (Keep an eye on either - or)
-* **Event B is when i + j = 8**
+* **Event $A$ is when either $i$ or $j$ is 5 or 6** (keep an eye on either - or)
+* **Event $B$ is when $i + j = 8$**
 
 
-* What is the size of sample space Ω ?
-* What is P(A ∩ B) ?
-* What is P(A) ?
-* Use above to calculate P(B|A) .
+* What is the size of sample space $\Omega$ ?
+* What is $P(A \cap B)$ ?
+* What is $P(A)$ ?
+* Use above to calculate $P(B \mid A)$
 
 ### solution
 
-* $A:= \{(i,j) \in \Omega \mid \text{either i or j is 5 or 6}\}$
+* $A:= \{(i,j) \in \Omega \mid \text{either $i$ or $j$ is 5 or 6}\}$
 
 * $B:= \{(i,j)\in \Omega \mid i+j = 8\}$
 
-* In total, there are possible 36 outcomes, so Ω = 36.
+* In total, there are possible 36 outcomes, so $\Omega = 36$.
 
-* P(A) = 20/36 - Event A has 20 possible outcomes out of 36 - ( five in each case * 4 ) 
-* P(A ∩ B) = 4/36 - Event B has 4 possible outcomes out of 36 - (2 and 6, 3 and 5, 6 and 2, 5 and 3)
-
-
- We want to know what the probability of B is given A, so $P(B \mid A)= \dfrac{P(B\cap A)}{P(A)}$. This leads to:
+* $P(A) = 20/36$ - Event $A$ has 20 possible outcomes out of 36 - ( five in each case * 4 ) 
+* $P(A \cap B) = 4/36$ - Event $B$ has 4 possible outcomes out of 36 - (2 and 6, 3 and 5, 6 and 2, 5 and 3)
 
 
-
-
+ We want to know what the probability of $B$ is given $A$, so $P(B \mid A)= \dfrac{P(B\cap A)}{P(A)}$. This leads to:
 
 
 
@@ -207,7 +204,7 @@ With the knowledge we have about conditional probabilities, compute and interpre
 
 ### Solution
 
-#### - $P(B \mid A)$
+* $P(B \mid A)$
 
 Probability of having an Amex credit card given that they have a Visa card
 
