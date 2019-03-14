@@ -70,7 +70,7 @@ Let $i,j$ be the numbers shown on the dice. The events $A$ and $B$ are described
 * **Event $B$ is when $i + j = 8$**
 
 
-* What is the size of sample space \$Omega$ ?
+* What is the size of sample space $\Omega$ ?
 * What is $P(A \cap B)$ ?
 * What is $P(A)$ ?
 * Use above to calculate $P(B \mid A)$
