@@ -140,8 +140,6 @@ P_A1_A2_A3
 
 ## Exercise 6
 
-## Exercise 6
-
 Let's consider the example where 2 dice are thrown. Given that **at least one** of the dice has come up on a number higher than 4, what is the probability that the sum is 8?
 
 Let $i,j$ be the numbers shown on the dice. The events $A$ and $B$ are described below:
