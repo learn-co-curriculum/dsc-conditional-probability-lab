@@ -204,7 +204,7 @@ With the knowledge we have about conditional probabilities, compute and interpre
 
 ### Solution
 
-* $P(B \mid A)$
+- $P(B \mid A)$
 
 Probability of having an Amex credit card given that they have a Visa card
 
@@ -223,14 +223,14 @@ p_B_given_A # correct answer: 0.5
 
 
 
-#### - $P(B' \mid A)$
+- $P(B' \mid A)$
 
 Probability of not having an Amex credit card given that they have a Visa card
 
 
 ```python
-p_Bcomp_given_A = 1 - 0.5
-p_Bcomp_given_A # correct answer: 0.5
+p_B_prime_given_A = 1 - 0.5
+p_B_prime_given_A # correct answer: 0.5
 ```
 
 
@@ -240,7 +240,7 @@ p_Bcomp_given_A # correct answer: 0.5
 
 
 
-#### - $P(A \mid B)$
+- $P(A \mid B)$
 
 $P(A \mid B)= \dfrac{P(B\cap A)}{P(B)}$
 
@@ -259,7 +259,7 @@ p_A_given_B # correct answer: 0.625
 
 
 
-#### - $P(A'\mid B)$
+- $P(A'\mid B)$
 
 Probability of not having a Visa credit card given that they have an Amex card
 
@@ -278,4 +278,4 @@ p_A_prime_given_B  # correct answer: 0.375
 
 ## Summary 
 
-In this lab we practiced around conditional probability and its theorem with some simple problems. The key takeaway from this lab is to to be able to identify random events as dependent or independent and calculating the probability of their occurrence using appropriate methods. Next we'll start focusing on the some more conditional probability axioms, building on the knowledge we have thus far. 
+In this lab you practiced conditional probability and its theorem with some simple problems. The key takeaway from this lab is to be able to identify random events as dependent or independent and calculating the probability of their occurrence using appropriate methods. Next you'll learn about some more conditional probability axioms, building on the knowledge we have so far. 
