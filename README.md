@@ -22,7 +22,9 @@ A coin is tossed and a single 6-sided dice is rolled. Find the probability of la
 ```
 
 ## Exercise 2
-A school survey found that 9 out of 10 students like pizza. If three students are chosen at random **with replacement**, what is the probability that all three students like pizza?
+
+
+After conducting a survey, one of the outcomes was that 8 out of 10 of the surey subjects liked chocolate chip cookies. If three survey subjects are chosen at random **with replacement**, what is the probability that all three like chocolate chip cookies?
 
 
 ```python
