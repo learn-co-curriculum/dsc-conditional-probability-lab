@@ -35,16 +35,18 @@ P
 
 
 ## Exercise 2
-A school survey found that 9 out of 10 students like pizza. If three students are chosen at random **with replacement**, what is the probability that all three students like pizza?
+
+
+After conducting a survey, one of the outcomes was that 8 out of 10 of the surey subjects liked chocolate chip cookies. If three survey subjects are chosen at random **with replacement**, what is the probability that all three like chocolate chip cookies?
 
 
 ```python
 #Probabilities
-P_student1 = P_student2 = P_student3 = 9/10
+P_subject1 = P_subject2 = P_subject3 = 8/10
     
-# Probability that student 1 and student 2 and student 3 like pizza
+# Probability that subject 1 and subject 2 and subject 3 like chocolate chip cookies
 # Remember (With replacement) makes these trials independent
-P_1_2_3 = P_student1*P_student2*P_student3
+P_1_2_3 = P_subject1*P_subject2*P_subject3
 
 
 P_1_2_3
@@ -53,7 +55,7 @@ P_1_2_3
 
 
 
-    0.7290000000000001
+    0.5120000000000001
 
 
 
