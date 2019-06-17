@@ -161,9 +161,9 @@ Let $i,j$ be the numbers shown on the dice. The events $A$ and $B$ are described
 
 * $B:= \{(i,j)\in \Omega \mid i+j = 8\}$
 
-* In total, there are possible 36 outcomes, so $\Omega = 36$.
+* In total, there are 36 possible outcomes, so $\Omega = 36$.
 
-* $P(A) = 20/36$ - Event $A$ has 20 possible outcomes out of 36 - ( five in each case * 4 ) 
+* $P(A) = 20/36$ - Event $A$ has 20 possible outcomes out of 36  
 * $P(A \cap B) = 4/36$ - Event $B$ has 4 possible outcomes out of 36 - (2 and 6, 3 and 5, 6 and 2, 5 and 3)
 
 
