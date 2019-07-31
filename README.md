@@ -21,6 +21,25 @@ A coin is tossed and a single 6-sided dice is rolled. Find the probability of la
 # Your solution
 ```
 
+
+```python
+# __SOLUTION__ 
+P_h =1/2
+  
+P_3	= 1/6
+
+#As the events are independent 
+P = P_h*P_3
+P
+```
+
+
+
+
+    0.08333333333333333
+
+
+
 ## Exercise 2
 
 
@@ -30,6 +49,27 @@ After conducting a survey, one of the outcomes was that 8 out of 10 of the surey
 ```python
 # Your Solution
 ```
+
+
+```python
+# __SOLUTION__ 
+#Probabilities
+P_subject1 = P_subject2 = P_subject3 = 8/10
+    
+# Probability that subject 1 and subject 2 and subject 3 like chocolate chip cookies
+# Remember (With replacement) makes these trials independent
+P_1_2_3 = P_subject1*P_subject2*P_subject3
+
+
+P_1_2_3
+```
+
+
+
+
+    0.5120000000000001
+
+
 
 ## Exercise 3
 70% of your friends like chocolate flavored ice cream , and 35% like chocolate AND like strawberry flavors.
@@ -41,6 +81,22 @@ What percent of those who like chocolate also like strawberry?
 # Your solution 
 ```
 
+
+```python
+# __SOLUTION__ 
+# P(Strawberry|Chocolate) = P(Chocolate and Strawberry) / P(Chocolate)
+
+p_strberry_given_choc = 0.35 / 0.7
+p_strberry_given_choc
+```
+
+
+
+
+    0.5
+
+
+
 50% of your friends who like chocolate also like strawberry
 
 ## Exercise 4
@@ -50,6 +106,32 @@ What is the probability of drawing 2 consecutive aces from a deck of cards.
 ```python
 # Your solution
 ```
+
+
+```python
+# __SOLUTION__ 
+# Let Event A is drawing the first ace, and Event B is drawing a second ace
+
+#For the first card the chance of drawing an ace is 4 out of 52 (there are 4 aces in a deck of 52 cards):
+
+P_A = 4/52
+
+# But after removing an ace from the deck the probability of the 2nd card drawn is less likely to be a ace (only 3 of the 51 cards left are aces):
+
+P_B_given_A = 3/51
+
+#And so according to the product rule:
+
+P_A_and_B = P_A * P_B_given_A
+P_A_and_B
+```
+
+
+
+
+    0.004524886877828055
+
+
 
 ## Exercise 5
 In a manufacturing factory that produces a certain product, there are 100 units of the product, 5 of which are defective. We pick three units from the 100 units at random. 
@@ -61,6 +143,32 @@ Hint: Use the chain rule here!
 ```python
 # Your solution
 ```
+
+
+```python
+# __SOLUTION__ 
+# Let us define Ai as the event that the ith chosen unit is not defective, for i=1,2,3. 
+# We are interested in P(A1∩A2∩A3). Note that
+P_A1=95/100.
+
+#Given that the first chosen item was good, the second item will be chosen from 94 good units and 5 defective units
+P_A2_given_A1=94/99
+
+# Given that the first and second chosen items were okay, the third item will be chosen from 93 good units and 5 defective units, thus
+P_A3_given_A2_A1=93/98
+
+# Accoring to chain rule
+P_A1_A2_A3=P_A1*P_A2_given_A1*P_A3_given_A2_A1
+
+P_A1_A2_A3
+```
+
+
+
+
+    0.8559987631416203
+
+
 
 ## Exercise 6
 
@@ -102,9 +210,79 @@ With the knowledge we have about conditional probabilities, compute and interpre
 
 
 ```python
+# __SOLUTION__ 
+p_B_given_A = (4/36)/(20/36) 
+p_B_given_A  
+```
+
+
+
+
+    0.19999999999999998
+
+
+
+
+```python
 # Your solution
 ```
 
 ## Summary 
 
 In this lab you practiced conditional probability and its theorem with some simple problems. The key takeaway from this lab is to be able to identify random events as dependent or independent and calculating the probability of their occurrence using appropriate methods. Next you'll learn about some more conditional probability axioms, building on the knowledge we have so far. 
+
+
+```python
+# __SOLUTION__ 
+p_B_given_A = 0.25/0.5  
+p_B_given_A # correct answer: 0.5
+```
+
+
+
+
+    0.5
+
+
+
+
+```python
+# __SOLUTION__ 
+p_B_prime_given_A = 1 - 0.5
+p_B_prime_given_A # correct answer: 0.5
+```
+
+
+
+
+    0.5
+
+
+
+
+```python
+# __SOLUTION__ 
+p_A_given_B = 0.25/0.4
+p_A_given_B # correct answer: 0.625
+```
+
+
+
+
+    0.625
+
+
+
+
+```python
+# __SOLUTION__ 
+p_A_prime_given_B = 1 - 0.625 
+p_A_prime_given_B  # correct answer: 0.375
+```
+
+
+
+
+    0.375
+
+
