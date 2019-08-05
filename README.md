@@ -155,22 +155,6 @@ Let $i,j$ be the numbers shown on the dice. The events $A$ and $B$ are described
 * What is $P(A)$ ?
 * Use above to calculate $P(B \mid A)$
 
-### solution
-
-* $A:= \{(i,j) \in \Omega \mid \text{either $i$ or $j$ is 5 or 6}\}$
-
-* $B:= \{(i,j)\in \Omega \mid i+j = 8\}$
-
-* In total, there are 36 possible outcomes, so $\Omega = 36$.
-
-* $P(A) = 20/36$ - Event $A$ has 20 possible outcomes out of 36  
-* $P(A \cap B) = 4/36$ - Event $B$ has 4 possible outcomes out of 36 - (2 and 6, 3 and 5, 6 and 2, 5 and 3)
-
-
- We want to know what the probability of $B$ is given $A$, so $P(B \mid A)= \dfrac{P(B\cap A)}{P(A)}$. This leads to:
-
-
-
 
 ```python
 p_B_given_A = (4/36)/(20/36) 
@@ -186,29 +170,21 @@ p_B_given_A
 
 ## Exercise 7
 
-Let's consider a credit card example. At a supermarket, we randomly select customers and make notes of whether a given customer owns a Visa card (event A) or an Amex credit card (event B). Some customers own both cards.
+Let's consider a credit card example. At a supermarket, customers are selected randomly, the store owner recorded whether costumers owned a Visa card (event A) or an Amex credit card (event B). Some customers own both cards.
 You can assume that:
 
-- P(A) = 0.5
-- P(B) = 0.4
-- both A and B = 0.25.
+- $P(A)$ = 0.5
+- $P(B)$ = 0.4
+- both $A$ and $B$ = 0.25.
 
 
 With the knowledge we have about conditional probabilities, compute and interpret the following probabilities:
 
 - $P(B \mid A)$
-- $P(B'\mid A)$
-- $P(A\mid B)$
-- $P(A'\mid B)$
+- $P(B' \mid A)$
+- $P(A \mid B)$
+- $P(A' \mid B)$
 
-
-### Solution
-
-- $P(B \mid A)$
-
-Probability of having an Amex credit card given that they have a Visa card
-
-$P(B \mid A)= \dfrac{P(B\cap A)}{P(A)}$
 
 
 ```python
@@ -223,10 +199,6 @@ p_B_given_A # correct answer: 0.5
 
 
 
-- $P(B' \mid A)$
-
-Probability of not having an Amex credit card given that they have a Visa card
-
 
 ```python
 p_B_prime_given_A = 1 - 0.5
@@ -240,12 +212,6 @@ p_B_prime_given_A # correct answer: 0.5
 
 
 
-- $P(A \mid B)$
-
-$P(A \mid B)= \dfrac{P(B\cap A)}{P(B)}$
-
-Probability of having a Visa credit card given that they have an Amex card
-
 
 ```python
 p_A_given_B = 0.25/0.4
@@ -258,10 +224,6 @@ p_A_given_B # correct answer: 0.625
     0.625
 
 
-
-- $P(A'\mid B)$
-
-Probability of not having a Visa credit card given that they have an Amex card
 
 
 ```python
