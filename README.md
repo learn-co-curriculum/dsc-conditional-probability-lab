@@ -18,7 +18,7 @@ A coin is tossed and a single 6-sided dice is rolled. Find the probability of la
 
 
 ```python
-# Your solution
+# Your code here
 ```
 
 ## Exercise 2
@@ -28,7 +28,7 @@ After conducting a survey, one of the outcomes was that 8 out of 10 of the surey
 
 
 ```python
-# Your Solution
+# Your code here
 ```
 
 ## Exercise 3
@@ -38,7 +38,7 @@ What percent of those who like chocolate also like strawberry?
 
 
 ```python
-# Your solution 
+# Your code here
 ```
 
 50% of your friends who like chocolate also like strawberry
@@ -48,7 +48,7 @@ What is the probability of drawing 2 consecutive aces from a deck of cards.
 
 
 ```python
-# Your solution
+# Your code here
 ```
 
 ## Exercise 5
@@ -59,7 +59,7 @@ Hint: Use the chain rule here!
 
 
 ```python
-# Your solution
+# Your code here
 ```
 
 ## Exercise 6
@@ -79,7 +79,7 @@ Let $i,j$ be the numbers shown on the dice. The events $A$ and $B$ are described
 
 
 ```python
-# Your solution
+# Your code here
 ```
 
 ## Exercise 7
@@ -102,7 +102,7 @@ With the knowledge we have about conditional probabilities, compute and interpre
 
 
 ```python
-# Your solution
+# Your code here
 ```
 
 ## Summary 
