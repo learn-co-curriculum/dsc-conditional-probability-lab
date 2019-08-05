@@ -18,7 +18,7 @@ A coin is tossed and a single 6-sided dice is rolled. Find the probability of la
 
 
 ```python
-# Your solution
+# Your code here
 ```
 
 
@@ -47,7 +47,7 @@ After conducting a survey, one of the outcomes was that 8 out of 10 of the surey
 
 
 ```python
-# Your Solution
+# Your code here
 ```
 
 
@@ -78,7 +78,7 @@ What percent of those who like chocolate also like strawberry?
 
 
 ```python
-# Your solution 
+# Your code here
 ```
 
 
@@ -104,7 +104,7 @@ What is the probability of drawing 2 consecutive aces from a deck of cards.
 
 
 ```python
-# Your solution
+# Your code here
 ```
 
 
@@ -141,7 +141,7 @@ Hint: Use the chain rule here!
 
 
 ```python
-# Your solution
+# Your code here
 ```
 
 
@@ -187,8 +187,22 @@ Let $i,j$ be the numbers shown on the dice. The events $A$ and $B$ are described
 
 
 ```python
-# Your solution
+# Your code here
 ```
+
+
+```python
+# __SOLUTION__ 
+p_B_given_A = (4/36)/(20/36) 
+p_B_given_A  
+```
+
+
+
+
+    0.19999999999999998
+
+
 
 ## Exercise 7
 
@@ -210,26 +224,8 @@ With the knowledge we have about conditional probabilities, compute and interpre
 
 
 ```python
-# __SOLUTION__ 
-p_B_given_A = (4/36)/(20/36) 
-p_B_given_A  
+# Your code here
 ```
-
-
-
-
-    0.19999999999999998
-
-
-
-
-```python
-# Your solution
-```
-
-## Summary 
-
-In this lab you practiced conditional probability and its theorem with some simple problems. The key takeaway from this lab is to be able to identify random events as dependent or independent and calculating the probability of their occurrence using appropriate methods. Next you'll learn about some more conditional probability axioms, building on the knowledge we have so far. 
 
 
 ```python
@@ -286,3 +282,7 @@ p_A_prime_given_B  # correct answer: 0.375
     0.375
 
 
+
+## Summary 
+
+In this lab you practiced conditional probability and its theorem with some simple problems. The key takeaway from this lab is to be able to identify random events as dependent or independent and calculating the probability of their occurrence using appropriate methods. Next you'll learn about some more conditional probability axioms, building on the knowledge we have so far. 
