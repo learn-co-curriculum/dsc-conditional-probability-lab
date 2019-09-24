@@ -3,7 +3,7 @@
 
 ## Introduction
 
-In order to be ready for real world applications of probability, it is important to understand what happens when probabilities are not independent. Very often, the probability of a certain event depends on other events happening! Let's see how this all works in this lab.
+In order to be ready for real-world applications of probability, it is important to understand what happens when probabilities are not independent. Very often, the probability of a certain event depends on other events happening! Let's see how this all works in this lab.
 
 ## Objectives
 
@@ -22,7 +22,7 @@ P_h =1/2
   
 P_3	= 1/6
 
-#As the events are independent 
+# As the events are independent 
 P = P_h*P_3
 P
 ```
@@ -37,7 +37,7 @@ P
 ## Exercise 2
 
 
-After conducting a survey, one of the outcomes was that 8 out of 10 of the surey subjects liked chocolate chip cookies. If three survey subjects are chosen at random **with replacement**, what is the probability that all three like chocolate chip cookies?
+After conducting a survey, one of the outcomes was that 8 out of 10 of the survey subjects liked chocolate chip cookies. If three survey subjects are chosen at random **with replacement**, what is the probability that all three like chocolate chip cookies?
 
 
 ```python
@@ -60,7 +60,7 @@ P_1_2_3
 
 
 ## Exercise 3
-70% of your friends like chocolate flavored ice cream , and 35% like chocolate AND like strawberry flavors.
+70% of your friends like chocolate flavored ice cream, and 35% like chocolate AND like strawberry flavors.
 
 What percent of those who like chocolate also like strawberry?
 
@@ -86,9 +86,9 @@ What is the probability of drawing 2 consecutive aces from a deck of cards.
 
 
 ```python
-# Let Event A is drawing the first ace, and Event B is drawing a second ace
+# Let Event A be drawing the first ace, and Event B be drawing a second ace
 
-#For the first card the chance of drawing an ace is 4 out of 52 (there are 4 aces in a deck of 52 cards):
+# For the first card, the chance of drawing an ace is 4 out of 52 (there are 4 aces in a deck of 52 cards):
 
 P_A = 4/52
 
@@ -96,7 +96,7 @@ P_A = 4/52
 
 P_B_given_A = 3/51
 
-#And so according to the product rule:
+# And so according to the product rule:
 
 P_A_and_B = P_A * P_B_given_A
 P_A_and_B
@@ -240,4 +240,4 @@ p_A_prime_given_B  # correct answer: 0.375
 
 ## Summary 
 
-In this lab you practiced conditional probability and its theorem with some simple problems. The key takeaway from this lab is to be able to identify random events as dependent or independent and calculating the probability of their occurrence using appropriate methods. Next you'll learn about some more conditional probability axioms, building on the knowledge we have so far. 
+In this lab, you practiced conditional probability and its theorem with some simple problems. The key takeaway from this lab is to be able to identify random events as dependent or independent and calculating the probability of their occurrence using appropriate methods. Next, you'll learn about some more conditional probability axioms, building on the knowledge we have so far. 
