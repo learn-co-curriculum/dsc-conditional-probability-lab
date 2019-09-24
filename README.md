@@ -3,7 +3,7 @@
 
 ## Introduction
 
-In order to be ready for real world applications of probability, it is important to understand what happens when probabilities are not independent. Very often, the probability of a certain event depends on other events happening! Let's see how this all works in this lab.
+In order to be ready for real-world applications of probability, it is important to understand what happens when probabilities are not independent. Very often, the probability of a certain event depends on other events happening! Let's see how this all works in this lab.
 
 ## Objectives
 
@@ -24,7 +24,7 @@ A coin is tossed and a single 6-sided dice is rolled. Find the probability of la
 ## Exercise 2
 
 
-After conducting a survey, one of the outcomes was that 8 out of 10 of the surey subjects liked chocolate chip cookies. If three survey subjects are chosen at random **with replacement**, what is the probability that all three like chocolate chip cookies?
+After conducting a survey, one of the outcomes was that 8 out of 10 of the survey subjects liked chocolate chip cookies. If three survey subjects are chosen at random **with replacement**, what is the probability that all three like chocolate chip cookies?
 
 
 ```python
@@ -32,7 +32,7 @@ After conducting a survey, one of the outcomes was that 8 out of 10 of the surey
 ```
 
 ## Exercise 3
-70% of your friends like chocolate flavored ice cream , and 35% like chocolate AND like strawberry flavors.
+70% of your friends like chocolate flavored ice cream, and 35% like chocolate AND like strawberry flavors.
 
 What percent of those who like chocolate also like strawberry?
 
@@ -107,4 +107,4 @@ With the knowledge we have about conditional probabilities, compute and interpre
 
 ## Summary 
 
-In this lab you practiced conditional probability and its theorem with some simple problems. The key takeaway from this lab is to be able to identify random events as dependent or independent and calculating the probability of their occurrence using appropriate methods. Next you'll learn about some more conditional probability axioms, building on the knowledge we have so far. 
+In this lab, you practiced conditional probability and its theorem with some simple problems. The key takeaway from this lab is to be able to identify random events as dependent or independent and calculating the probability of their occurrence using appropriate methods. Next, you'll learn about some more conditional probability axioms, building on the knowledge we have so far. 
