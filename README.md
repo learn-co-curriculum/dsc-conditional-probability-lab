@@ -9,9 +9,8 @@ In order to be ready for real-world applications of probability, it is important
 
 You will be able to:
 
-- Understand and explain the conditional probability - $P(A \cap B) = P(A \mid B) P(B)$
-- Use the multiplication rule to find the probability of the intersection of two events
-- Apply the techniques learned in the lesson to simple problems
+* Differentiate between independent and dependent events
+* Use the multiplication rule to find the probability of the intersection of two events
 
 ## Exercise 1
 A coin is tossed and a single 6-sided dice is rolled. Find the probability of landing on the head side of the coin and rolling a 3 on the dice.
