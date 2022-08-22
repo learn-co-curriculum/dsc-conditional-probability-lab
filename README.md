@@ -1,4 +1,3 @@
-
 # Conditional Probability - Lab
 
 ## Introduction
@@ -13,7 +12,7 @@ You will be able to:
 * Use the multiplication rule to find the probability of the intersection of two events
 
 ## Exercise 1
-A coin is tossed and a single 6-sided dice is rolled. Find the probability of landing on the head side of the coin and rolling a 3 on the dice.
+A coin is tossed and a single 6-sided die is rolled. Find the probability of landing on the head side of the coin and rolling a 3 on the die.
 
 
 ```python
@@ -63,7 +62,7 @@ Hint: Use the chain rule here!
 
 ## Exercise 6
 
-Let's consider the example where 2 dice are thrown. Given that **at least one** of the dice has come up on a number higher than 4, what is the probability that the sum is 8?
+Let's consider the example where 2 dice are thrown. Given that **at least one** of the die has come up on a number higher than 4, what is the probability that the sum is 8?
 
 Let $i,j$ be the numbers shown on the dice. The events $A$ and $B$ are described below:
 
