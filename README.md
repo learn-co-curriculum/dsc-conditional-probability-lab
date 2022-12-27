@@ -156,7 +156,17 @@ Let $i,j$ be the numbers shown on the dice. The events $A$ and $B$ are described
 
 ```python
 p_B_given_A = (4/36)/(20/36) 
-p_B_given_A  
+p_B_given_A
+
+# Explanation
+# total possible outcome = 36
+# total possible outcomes that met the condition of one of the two dice having a 
+# value greater than 4 is {[1,5], [1,6], [2,5], [2,6], ....[6,5], [6,6]} = 20
+# P(at least 1 die is greater than 4) = P(A) = 20/36 = 0.5556
+# P(B and A) is the probability that the sum of two dice equal 8 and one of the
+# dice is greater than 4, which the possible outcomes are {[2,6], [3,5], [5,3], [6,2]},
+# so the P(B and A) is 4/36 = 0.1111
+# dividing P(B and A) by P(A) returns the conditional probability P(B|A) = (4/36)/(20/36)
 ```
 
 
